@@ -1,0 +1,40 @@
+I, [2019-01-07T12:29:08.565765 #32884]  INFO -- : Cleared interactions for example "EventsApiConsumerTests..ctor"
+I, [2019-01-07T12:29:09.501773 #32884]  INFO -- : Registered expected interaction GET /api/v1.0/fixture/713be2bd-36e3-43b8-ae2b-0ddeac06cd9f
+D, [2019-01-07T12:29:09.501773 #32884] DEBUG -- : {
+  "description": "I call fixture service using a valid fixture Id",
+  "providerState": "a request to check the api response",
+  "request": {
+    "method": "get",
+    "path": "/api/v1.0/fixture/713be2bd-36e3-43b8-ae2b-0ddeac06cd9f",
+    "headers": {
+      "Accept": "application/json",
+      "X-Clarksons-Security-Cloud": "dfgfdgfdgfdgdfgdfgdfgdfg"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    }
+  }
+}
+I, [2019-01-07T12:29:09.515774 #32884]  INFO -- : Received request GET /api/v1.0/fixture/713be2bd-36e3-43b8-ae2b-0ddeac06cd9f
+D, [2019-01-07T12:29:09.515774 #32884] DEBUG -- : {
+  "path": "/api/v1.0/fixture/713be2bd-36e3-43b8-ae2b-0ddeac06cd9f",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "X-Clarksons-Security-Cloud": "dfgfdgfdgfdgdfgdfgdfgdfg",
+    "Host": "localhost:9222",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2019-01-07T12:29:09.515774 #32884]  INFO -- : Found matching response for GET /api/v1.0/fixture/713be2bd-36e3-43b8-ae2b-0ddeac06cd9f
+D, [2019-01-07T12:29:09.515774 #32884] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  }
+}
+I, [2019-01-07T12:29:09.580781 #32884]  INFO -- : Verifying - interactions matched for example "EventsApiConsumerTests.IsAlive_WhenApiIsAlive_ReturnsTrue"
+I, [2019-01-07T12:29:09.606780 #32884]  INFO -- : Writing pact for FixtureAPI to ../../../pacts/eventapiconsumer-fixtureapi.json
+I, [2019-01-07T12:29:09.634778 #32884]  INFO -- : Cleared interactions for example "ConsumerEventApiPact.Dispose ExceptionAggregator.Run <BeforeTestClassFinishedAsync>d__14.MoveNext"

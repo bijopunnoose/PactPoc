@@ -1,0 +1,4 @@
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer.Tests\obj\Debug\net46\Consumer.Tests.csprojAssemblyReference.cache
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer.Tests\obj\Debug\net46\Consumer.Tests.csproj.CoreCompileInputs.cache
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer.Tests\obj\Debug\net46\Consumer.Tests.AssemblyInfoInputs.cache
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer.Tests\obj\Debug\net46\Consumer.Tests.AssemblyInfo.cs

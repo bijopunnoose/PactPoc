@@ -1,0 +1,5 @@
+source 'http://rubygems.org'
+
+gem "pact-mock_service"
+gem "pact-provider-verifier"
+gem "pact_broker-client"

@@ -1,0 +1,469 @@
+I, [2018-12-28T10:23:31.869972 #8908]  INFO -- : Cleared interactions for example "EventsApiConsumerTests..ctor"
+I, [2018-12-28T10:23:32.674460 #8908]  INFO -- : Registered expected interaction GET /stats/status
+D, [2018-12-28T10:23:32.674460 #8908] DEBUG -- : {
+  "description": "a request to check the api status",
+  "request": {
+    "method": "get",
+    "path": "/stats/status",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "alive": true,
+      "_links": {
+        "uptime": {
+          "href": "/stats/uptime"
+        }
+      }
+    }
+  }
+}
+I, [2018-12-28T10:23:32.684466 #8908]  INFO -- : Received request GET /stats/status
+D, [2018-12-28T10:23:32.684466 #8908] DEBUG -- : {
+  "path": "/stats/status",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "localhost:9222",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-12-28T10:23:32.685463 #8908]  INFO -- : Found matching response for GET /stats/status
+D, [2018-12-28T10:23:32.685463 #8908] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "alive": true,
+    "_links": {
+      "uptime": {
+        "href": "/stats/uptime"
+      }
+    }
+  }
+}
+I, [2018-12-28T10:23:32.788520 #8908]  INFO -- : Verifying - interactions matched for example "EventsApiConsumerTests.IsAlive_WhenApiIsAlive_ReturnsTrue"
+I, [2018-12-28T10:23:32.814469 #8908]  INFO -- : Cleared interactions for example "EventsApiConsumerTests..ctor"
+I, [2018-12-28T10:23:32.832466 #8908]  INFO -- : Registered expected interaction GET /stats/status
+D, [2018-12-28T10:23:32.832466 #8908] DEBUG -- : {
+  "description": "a request to check the api status",
+  "request": {
+    "method": "get",
+    "path": "/stats/status",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "alive": true,
+      "_links": {
+        "uptime": {
+          "href": "/stats/uptime"
+        }
+      }
+    }
+  }
+}
+I, [2018-12-28T10:23:32.849471 #8908]  INFO -- : Registered expected interaction GET /stats/uptime
+D, [2018-12-28T10:23:32.850462 #8908] DEBUG -- : {
+  "description": "a request to check the api uptime",
+  "request": {
+    "method": "get",
+    "path": "/stats/uptime",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "upSince": "2014-06-27T23:51:12Z"
+    }
+  }
+}
+I, [2018-12-28T10:23:32.861463 #8908]  INFO -- : Received request GET /stats/status
+D, [2018-12-28T10:23:32.861463 #8908] DEBUG -- : {
+  "path": "/stats/status",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "localhost:9222",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-12-28T10:23:32.861463 #8908]  INFO -- : Found matching response for GET /stats/status
+D, [2018-12-28T10:23:32.862466 #8908] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "alive": true,
+    "_links": {
+      "uptime": {
+        "href": "/stats/uptime"
+      }
+    }
+  }
+}
+I, [2018-12-28T10:23:32.886503 #8908]  INFO -- : Received request GET /stats/uptime
+D, [2018-12-28T10:23:32.886503 #8908] DEBUG -- : {
+  "path": "/stats/uptime",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "localhost:9222",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-12-28T10:23:32.887504 #8908]  INFO -- : Found matching response for GET /stats/uptime
+D, [2018-12-28T10:23:32.887504 #8908] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "upSince": "2014-06-27T23:51:12Z"
+  }
+}
+I, [2018-12-28T10:23:32.906505 #8908]  INFO -- : Verifying - interactions matched for example "EventsApiConsumerTests.UpSince_WhenApiIsAliveAndWeRetrieveUptime_ReturnsUpSinceDate"
+I, [2018-12-28T10:23:32.920502 #8908]  INFO -- : Cleared interactions for example "EventsApiConsumerTests..ctor"
+I, [2018-12-28T10:23:32.988502 #8908]  INFO -- : Registered expected interaction GET /events/83f9262f-28f1-4703-ab1a-8cfd9e8249c9
+D, [2018-12-28T10:23:32.989502 #8908] DEBUG -- : {
+  "description": "a request to retrieve event with id '83f9262f-28f1-4703-ab1a-8cfd9e8249c9'",
+  "providerState": "there is an event with id '83f9262f-28f1-4703-ab1a-8cfd9e8249c9'",
+  "request": {
+    "method": "get",
+    "path": {
+      "json_class": "Pact::Term",
+      "data": {
+        "generate": "/events/83f9262f-28f1-4703-ab1a-8cfd9e8249c9",
+        "matcher": {"json_class":"Regexp","o":0,"s":"^\\/events\\/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"}
+      }
+    },
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Server": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "RubyServer"
+      }
+    },
+    "body": {
+      "eventId": {
+        "json_class": "Pact::Term",
+        "data": {
+          "generate": "83f9262f-28f1-4703-ab1a-8cfd9e8249c9",
+          "matcher": {"json_class":"Regexp","o":0,"s":"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"}
+        }
+      },
+      "eventType": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "DetailsView"
+      },
+      "timestamp": {
+        "json_class": "Pact::Term",
+        "data": {
+          "generate": "2018-12-28T10:23:32.9225029Z",
+          "matcher": {"json_class":"Regexp","o":0,"s":"^(-?(?:[1-9][0-9]*)?[0-9]{4})-(1[0-2]|0[1-9])-(3[0-1]|0[1-9]|[1-2][0-9])T(2[0-3]|[0-1][0-9]):([0-5][0-9]):([0-5][0-9])(\\.[0-9]+)?(Z|[+-](?:2[0-3]|[0-1][0-9]):[0-5][0-9])?$"}
+        }
+      }
+    }
+  }
+}
+I, [2018-12-28T10:23:33.007514 #8908]  INFO -- : Received request GET /events/83f9262f-28f1-4703-ab1a-8cfd9e8249c9
+D, [2018-12-28T10:23:33.009517 #8908] DEBUG -- : {
+  "path": "/events/83f9262f-28f1-4703-ab1a-8cfd9e8249c9",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "localhost:9222",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-12-28T10:23:33.011509 #8908]  INFO -- : Found matching response for GET /events/83f9262f-28f1-4703-ab1a-8cfd9e8249c9
+D, [2018-12-28T10:23:33.012511 #8908] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Server": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "RubyServer"
+    }
+  },
+  "body": {
+    "eventId": {
+      "json_class": "Pact::Term",
+      "data": {
+        "generate": "83f9262f-28f1-4703-ab1a-8cfd9e8249c9",
+        "matcher": {
+          "json_class": "Regexp",
+          "o": 0,
+          "s": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+        }
+      }
+    },
+    "eventType": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "DetailsView"
+    },
+    "timestamp": {
+      "json_class": "Pact::Term",
+      "data": {
+        "generate": "2018-12-28T10:23:32.9225029Z",
+        "matcher": {
+          "json_class": "Regexp",
+          "o": 0,
+          "s": "^(-?(?:[1-9][0-9]*)?[0-9]{4})-(1[0-2]|0[1-9])-(3[0-1]|0[1-9]|[1-2][0-9])T(2[0-3]|[0-1][0-9]):([0-5][0-9]):([0-5][0-9])(\\.[0-9]+)?(Z|[+-](?:2[0-3]|[0-1][0-9]):[0-5][0-9])?$"
+        }
+      }
+    }
+  }
+}
+I, [2018-12-28T10:23:33.035502 #8908]  INFO -- : Verifying - interactions matched for example "EventsApiConsumerTests.GetEventById_WhenTheEventExists_ReturnsEvent"
+I, [2018-12-28T10:23:33.051511 #8908]  INFO -- : Cleared interactions for example "EventsApiConsumerTests..ctor"
+I, [2018-12-28T10:23:33.067504 #8908]  INFO -- : Registered expected interaction GET /events
+D, [2018-12-28T10:23:33.067504 #8908] DEBUG -- : {
+  "description": "a request to retrieve all events with no authorization",
+  "providerState": "there are events with ids '45D80D13-D5A2-48D7-8353-CBB4C0EAABF5', '83F9262F-28F1-4703-AB1A-8CFD9E8249C9' and '3E83A96B-2A0C-49B1-9959-26DF23F83AEB'",
+  "request": {
+    "method": "get",
+    "path": "/events",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 401,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "message": "Authorization has been denied for this request."
+    }
+  }
+}
+I, [2018-12-28T10:23:33.081508 #8908]  INFO -- : Received request GET /events
+D, [2018-12-28T10:23:33.081508 #8908] DEBUG -- : {
+  "path": "/events",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "localhost:9222",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-12-28T10:23:33.081508 #8908]  INFO -- : Found matching response for GET /events
+D, [2018-12-28T10:23:33.081508 #8908] DEBUG -- : {
+  "status": 401,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "message": "Authorization has been denied for this request."
+  }
+}
+I, [2018-12-28T10:23:33.097510 #8908]  INFO -- : Verifying - interactions matched for example "EventsApiConsumerTests.GetAllEvents_WithNoAuthorizationToken_ShouldFail"
+I, [2018-12-28T10:23:33.117511 #8908]  INFO -- : Cleared interactions for example "EventsApiConsumerTests..ctor"
+I, [2018-12-28T10:23:33.157506 #8908]  INFO -- : Registered expected interaction GET /events?type=DetailsView
+D, [2018-12-28T10:23:33.158504 #8908] DEBUG -- : {
+  "description": "a request to retrieve events with type 'DetailsView'",
+  "providerState": "there is one event with type 'DetailsView'",
+  "request": {
+    "method": "get",
+    "path": "/events",
+    "query": {
+      "json_class": "Pact::Term",
+      "data": {
+        "generate": "type=DetailsView",
+        "matcher": {"json_class":"Regexp","o":0,"s":"^type=(DetailsView|SearchView)$"}
+      }
+    },
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": [
+      {
+        "eventType": "DetailsView"
+      }
+    ]
+  }
+}
+I, [2018-12-28T10:23:33.174504 #8908]  INFO -- : Received request GET /events?type=DetailsView
+D, [2018-12-28T10:23:33.175504 #8908] DEBUG -- : {
+  "path": "/events",
+  "query": "type=DetailsView",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "localhost:9222",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-12-28T10:23:33.175504 #8908]  INFO -- : Found matching response for GET /events?type=DetailsView
+D, [2018-12-28T10:23:33.175504 #8908] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": [
+    {
+      "eventType": "DetailsView"
+    }
+  ]
+}
+I, [2018-12-28T10:23:33.198514 #8908]  INFO -- : Verifying - interactions matched for example "EventsApiConsumerTests.GetEventsByType_WhenOneEventWithTheTypeExists_ReturnsEvent"
+I, [2018-12-28T10:23:33.216510 #8908]  INFO -- : Cleared interactions for example "EventsApiConsumerTests..ctor"
+I, [2018-12-28T10:23:33.232507 #8908]  INFO -- : Registered expected interaction GET /events
+D, [2018-12-28T10:23:33.233505 #8908] DEBUG -- : {
+  "description": "a request to retrieve all events",
+  "providerState": "there are events with ids '45D80D13-D5A2-48D7-8353-CBB4C0EAABF5', '83F9262F-28F1-4703-AB1A-8CFD9E8249C9' and '3E83A96B-2A0C-49B1-9959-26DF23F83AEB'",
+  "request": {
+    "method": "get",
+    "path": "/events",
+    "headers": {
+      "Accept": "application/json",
+      "Authorization": "Bearer SomeValidAuthToken"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": [
+      {
+        "eventId": "45d80d13-d5a2-48d7-8353-cbb4c0eaabf5",
+        "timestamp": "2014-06-30T01:37:41.0660548",
+        "eventType": "SearchView"
+      },
+      {
+        "eventId": "83f9262f-28f1-4703-ab1a-8cfd9e8249c9",
+        "timestamp": "2014-06-30T01:37:52.2618864",
+        "eventType": "DetailsView"
+      },
+      {
+        "eventId": "3e83a96b-2a0c-49b1-9959-26df23f83aeb",
+        "timestamp": "2014-06-30T01:38:00.8518952",
+        "eventType": "SearchView"
+      }
+    ]
+  }
+}
+I, [2018-12-28T10:23:33.254509 #8908]  INFO -- : Received request GET /events
+D, [2018-12-28T10:23:33.255508 #8908] DEBUG -- : {
+  "path": "/events",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer SomeValidAuthToken",
+    "Host": "localhost:9222",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-12-28T10:23:33.255508 #8908]  INFO -- : Found matching response for GET /events
+D, [2018-12-28T10:23:33.257506 #8908] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": [
+    {
+      "eventId": "45d80d13-d5a2-48d7-8353-cbb4c0eaabf5",
+      "timestamp": "2014-06-30T01:37:41.0660548",
+      "eventType": "SearchView"
+    },
+    {
+      "eventId": "83f9262f-28f1-4703-ab1a-8cfd9e8249c9",
+      "timestamp": "2014-06-30T01:37:52.2618864",
+      "eventType": "DetailsView"
+    },
+    {
+      "eventId": "3e83a96b-2a0c-49b1-9959-26df23f83aeb",
+      "timestamp": "2014-06-30T01:38:00.8518952",
+      "eventType": "SearchView"
+    }
+  ]
+}
+I, [2018-12-28T10:23:33.271504 #8908]  INFO -- : Verifying - interactions matched for example "EventsApiConsumerTests.GetAllEvents_WhenCalled_ReturnsAllEvents"
+I, [2018-12-28T10:23:33.284503 #8908]  INFO -- : Cleared interactions for example "EventsApiConsumerTests..ctor"
+I, [2018-12-28T10:23:33.303509 #8908]  INFO -- : Registered expected interaction POST /events
+D, [2018-12-28T10:23:33.304515 #8908] DEBUG -- : {
+  "description": "a request to create a new event",
+  "request": {
+    "method": "post",
+    "path": "/events",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "eventId": "1f587704-2dcc-4313-a233-7b62b4b469db",
+      "timestamp": "2011-07-01T01:41:03.0000000",
+      "eventType": "DetailsView"
+    }
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+    }
+  }
+}
+I, [2018-12-28T10:23:33.319504 #8908]  INFO -- : Received request POST /events
+D, [2018-12-28T10:23:33.319504 #8908] DEBUG -- : {
+  "path": "/events",
+  "query": "",
+  "method": "post",
+  "body": {
+    "eventId": "1f587704-2dcc-4313-a233-7b62b4b469db",
+    "timestamp": "2011-07-01T01:41:03.0000000",
+    "eventType": "DetailsView"
+  },
+  "headers": {
+    "Content-Length": "118",
+    "Content-Type": "application/json; charset=utf-8",
+    "Host": "localhost:9222",
+    "Expect": "100-continue",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-12-28T10:23:33.320508 #8908]  INFO -- : Found matching response for POST /events
+D, [2018-12-28T10:23:33.320508 #8908] DEBUG -- : {
+  "status": 201,
+  "headers": {
+  }
+}
+I, [2018-12-28T10:23:33.330506 #8908]  INFO -- : Verifying - interactions matched for example "EventsApiConsumerTests.CreateEvent_WhenCalledWithEvent_Succeeds"
+I, [2018-12-28T10:23:33.346504 #8908]  INFO -- : Writing pact for Event API to ../../../pacts/event_api_consumer-event_api.json
+I, [2018-12-28T10:23:33.370506 #8908]  INFO -- : Cleared interactions for example "ConsumerEventApiPact.Dispose ExceptionAggregator.Run <BeforeTestClassFinishedAsync>d__14.MoveNext"

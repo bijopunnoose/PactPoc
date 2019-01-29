@@ -1,0 +1,24 @@
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\bin\Debug\PactPublisher.exe.config
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\bin\Debug\PactPublisher.exe
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\bin\Debug\PactPublisher.pdb
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\bin\Debug\Newtonsoft.Json.dll
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\bin\Debug\PactNet.dll
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\bin\Debug\Newtonsoft.Json.xml
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\bin\Debug\PactNet.pdb
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\bin\Debug\PactNet.xml
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\obj\Debug\PactPublisherApp.csprojAssemblyReference.cache
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\obj\Debug\PactPublisherApp.csproj.CoreCompileInputs.cache
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\obj\Debug\PactPublisherApp.csproj.CopyComplete
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\obj\Debug\PactPublisher.exe
+C:\Testing\PACT\pact-net\Samples\EventApi\Consumer\PactPublisher\obj\Debug\PactPublisher.pdb
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\bin\Debug\PactPublisher.exe.config
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\bin\Debug\PactPublisher.exe
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\bin\Debug\PactPublisher.pdb
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\bin\Debug\Newtonsoft.Json.xml
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\bin\Debug\PactNet.pdb
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\bin\Debug\PactNet.xml
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\obj\Debug\PactPublisherApp.csprojAssemblyReference.cache
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\obj\Debug\PactPublisherApp.csproj.CoreCompileInputs.cache
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\obj\Debug\PactPublisherApp.csproj.CopyComplete
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\obj\Debug\PactPublisher.exe
+C:\Testing\PACT\pact-workshop-dotnet-core-v1\CompletedSolution\Provider\tests - Copy\FixtureServicesConsumer\PactPublisher\obj\Debug\PactPublisher.pdb

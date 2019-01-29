@@ -1,0 +1,31 @@
+{
+  "consumer": {
+    "name": "EventAPIConsumer"
+  },
+  "provider": {
+    "name": "FixtureServices"
+  },
+  "interactions": [
+    {
+      "description": "I call fixture service using a valid fixture Id",
+      "providerState": "a request to check the api response",
+      "request": {
+        "method": "get",
+        "path": "/api/v1.0/fixture/713be2bd-36e3-43b8-ae2b-0ddeac06cd9f",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

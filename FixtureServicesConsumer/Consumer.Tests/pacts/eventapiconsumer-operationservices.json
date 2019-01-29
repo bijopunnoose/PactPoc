@@ -1,0 +1,32 @@
+{
+  "consumer": {
+    "name": "EventAPIConsumer"
+  },
+  "provider": {
+    "name": "OperationServices"
+  },
+  "interactions": [
+    {
+      "description": "I call fixture service using a valid fixture Id",
+      "providerState": "a request to check the api response",
+      "request": {
+        "method": "get",
+        "path": "/api/v1.0/fixture/713be2bd-36e3-43b8-ae2b-0ddeac06cd9f",
+        "headers": {
+          "Accept": "application/json",
+          "X-Clarksons-Security-Cloud": "9xoNm1ZZk6zn3uzu2X18xXtRM5MurptRBsWGA4A1zIM+HSZdJDp9aqlRD+oCsNDOL4UPwU5oFNJHa3T/c1FeVG4EBodw/ybiZq8xb4XSPcELNZ3IKbM1d1tvVGBbWi8q7Q"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
